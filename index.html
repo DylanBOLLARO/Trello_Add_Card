@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRELLO-ADD-CARD</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="full-screen-container">
+      <div class="login-container">
+        <h1 class="login-title">Trello_ADD_CARD</h1>
+        <form class="form">
+          <!-- Nom de la carte -->
+          <div class="input-group">
+            <label id="center" for="name">Nom de la carte</label>
+            <input name="name" id="input_name" />
+          </div>
+          <!-- Coordonnées personnelles -->
+          <div class="input-group">
+            <label id="center" for="contact">Coordonnées personnelles</label>
+            <div class="space">
+              <label class="center" for="contact">Prénom</label
+              ><input type="contact" name="contact" id="input_prenom" />
+            </div>
+            <div class="space">
+              <label for="contact">Nom</label
+              ><input type="contact" name="contact" id="input_nom" />
+            </div>
+            <div class="space">
+              <label for="contact">Téléphone</label
+              ><input type="contact" name="contact" id="input_tel" />
+            </div>
+          </div>
+          <!-- Panne indiqué -->
+          <div class="input-group">
+            <label id="center" for="name">Panne indiquée</label>
+            <textarea
+              id="input_panne"
+              style="height: 120px"
+              rows="5"
+              cols="40"
+            ></textarea>
+          </div>
+          <button type="submit" class="login-button">Créer la carte</button>
+        </form>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
